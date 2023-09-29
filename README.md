@@ -8,4 +8,8 @@ Deep learning algorithms have recently used image classification to identify med
 The aim of this project is two folds:
 
 Build a deep learning model  to differentiate an X-ray image of a normal person from an unhealthy one.
+
 Build an app using Streamlit for users to make predictions or inference using your model.
+
+I built a CNN model and a Densenet Model where the CNN model did better and predicted better.
+
