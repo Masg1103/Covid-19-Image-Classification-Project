@@ -18,6 +18,7 @@ class_labels = ["Covid", "Normal", "Viral Pneumonia"]
 def predict_image(image):
     # Convert the stream to a PIL Image
     pil_image = Image.open(image)
+    pil_image = Image.convert("RGB")
 
      # Preprocess the image
     pil_image = pil_image.resize((128, 128))  # Resize to the input size expected by the model
