@@ -9,7 +9,7 @@ st.title("COVID-19 Lung X-ray Image Classification")
 st.write("Upload Lung X-ray images for COVID-19 prediction")
 
 # Load the trained CNN COVID-19 prediction model model
-model = load_model("C:/Users/SERWAH/Desktop/Ailead/MLOPs/DogsCats/covid_cnn.hdf5")
+model = load_model("covid_cnn.hdf5")
 
 # Define class labels
 class_labels = ["Covid", "Normal", "Viral Pneumonia"]
