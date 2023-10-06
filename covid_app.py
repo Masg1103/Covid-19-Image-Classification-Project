@@ -18,7 +18,7 @@ class_labels = ["Covid", "Normal", "Viral Pneumonia"]
 def predict_image(image):
     # Convert the stream to a PIL Image
     pil_image = Image.open(image)
-    pil_image = Image.convert("RGB")
+    
 
      # Preprocess the image
     pil_image = pil_image.resize((128, 128))  # Resize to the input size expected by the model
@@ -37,6 +37,7 @@ uploaded_images = st.file_uploader("Upload X-ray images", type=["jpg", "png", "j
 
 if uploaded_images:
     for uploaded_image in uploaded_images:
+        uploaded_image_image = uploaded_image.convert("RGB")
         # Display the uploaded image
         st.image(uploaded_image, caption="Uploaded Image", use_column_width=True)
 
