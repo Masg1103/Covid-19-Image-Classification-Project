@@ -1,4 +1,5 @@
 # Covid-19-Image-Classification-Project
+![coronavirus-4885735_1920](https://github.com/Masg1103/Covid-19-Image-Classification-Project/assets/139725529/981ddcd0-cca0-45ff-a19a-e49c8644df65)
 
 Background and Context
 Covid-19 is a fast-growing disease that affects human health severely. Patients diagnosed with this condition suffer from lung infections. The medical community has recently released vaccines that have a slower effect in increasing immunity. This virus has impacted various countries\' human health and financial standards.
